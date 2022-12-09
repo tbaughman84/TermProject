@@ -1,0 +1,198 @@
+body {background-color:#808080;
+      font-family: Verdana, Arial, sans-serif;
+      color:#000000;
+
+}
+
+* {box-sizing: border-box;
+
+}
+
+
+header {background-image: url("images/fordshelby.jpg");
+        background-repeat: repeat;
+        Background-position: right;
+        background-color:#144cd7; color:#FFFFFF;
+        text-align:center;
+        height:150px
+}
+
+#wrapper {margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          color:#000000;
+          background-color:#F5F5F5;
+          min-width:550px;
+          max-width:1280px;
+}
+
+
+nav {border:1px solid #ccc;
+     border-width:1px 0;
+     list-style:none;
+     margin:0;
+     padding:0;
+     text-align:center;
+}
+
+nav li {display:inline;
+}
+
+nav a {text-decoration: none;
+       text-align:center;
+       font-weight:bold;
+       display:inline-block;
+       border-style:hidden; 
+       border-color:#000080;
+       padding:10px;
+        
+}
+
+nav a:hover {color:#FFFF00;
+            
+}
+
+
+
+     /*navigation menu styles*/
+
+nav ul {list-style:none;
+        padding-left:0;
+        font-size:1.2em;
+}
+     /* unvisited link */
+        a:link {color:#000080;}
+     /* visited link */
+        a:visited {color:#ff0000;}
+     /* mouse over link */
+        a:hover {color:#A26100; 
+                 border-style:inset; 
+                 border-width:3px; 
+                 border-color:#333333
+} 
+
+
+
+
+h1 {padding-top: 50px;
+    padding-left: 2em;
+    text-align:center;
+}
+
+h2 {text-align:center;
+
+}
+
+main {padding:0 3em 3em;
+      display:block;
+      margin-left:170px;
+
+}
+
+#engineimg { height:450px;
+             background-image: url("images/engine.jpg");
+             background-size: cover;
+             background-repeat: no-repeat;
+             border-style:solid;
+             border-color:red;
+}
+
+#transmissionimg { height:300px;
+               background-image: url("images/transmission.jpg");
+               background-size: 50%;
+               background-repeat: no-repeat;
+               background-position: center;
+              
+               
+}
+
+#shifterimg { height:300px;
+              background-image: url("images/shifter.jpg");
+              background-size: 65%;
+              background-repeat: no-repeat;
+              background-position:center 
+              
+
+}
+
+#suspensionimg {height:300px;
+               background-image: url("images/suspension.jpg");
+               background-size: 65%;
+               background-repeat: no-repeat;
+               background-position:center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {   
+    content: '';   
+    display: inline-block;   
+    height: 40px;   
+    width: 40px;    
+    background-size: 40px;   
+    background-image: url("images/shelbyicon.png");   
+    background-repeat: no-repeat;   
+    margin-right: 10px;
+    background-position: center center;
+    vertical-align: middle;
+}
+            
+
+.floatleft {float:left;
+            margin-right:4em;
+
+}
+
+.clear {clear:both;
+
+}
+
+footer {background-color:#808080;
+        font-size: small;
+        Font-style: italic;
+        text-align: center;
+        padding: 1em;
+         
+}
+
+li {font-size:90%;
+
+}
+
+.popular{color:#FF0000;
+}
+
+
+
+
+table {margin-left:auto;
+       margin-right:auto;
+       width:60%;
+       border:1px; 
+       border-color:#435278;
+       margin-bottom:1em;
+       border-collapse:collapse;
+}
+
+td,th {padding:0.5em;
+       border:1px;
+       border-color:#435278;
+       text-align:center;
+       color:#8b0000;
+}
+
+tr:nth-of-type(even) {background-color:#87cefa;}
+
+caption {margin:1em;
+         font-weight:bold;
+         font-size:120%;
+}
+
+
+
+
+               
+       
